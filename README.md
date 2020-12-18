@@ -1,2 +1,3 @@
 # first-project
-Some description
+Some project description
+
