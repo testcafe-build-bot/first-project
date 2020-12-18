@@ -34,3 +34,11 @@ jobs:
         with:
           name: my-artifact
           path: README.md
+      - name: Get a Docker image
+        run: |
+          docker pull alpine
+          docker save alpine > alpine.tar
+      - uses: actions/upload-artifact@v2      
+        with:
+          name: alpine
+          path: alpine.tar
