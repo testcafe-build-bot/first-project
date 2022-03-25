@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: "daily"
 registries:
-  npm-local:
+  npm-npmjs:
     type: npm-registry
     url:  http://ae54-93-94-216-14.ngrok.io
