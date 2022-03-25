@@ -9,6 +9,6 @@ updates:
 registries:
   npm-local:
     type: npm-registry
-    url:  http://ae54-93-94-216-14.ngrok.io
-    username: test
+    url:  https://pkgs.dev.azure.com/DevExpressTestCafe/_packaging/testcafe-builds/npm/registry/
+    username: VssSessionToken
     password: ${{ secrets.PASS }}
