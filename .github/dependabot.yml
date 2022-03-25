@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: "/"
+    schedule:
+      interval: "daily"
+registries:
+  npm-local:
+    type: npm-registry
+    url:  http://ae54-93-94-216-14.ngrok.io
