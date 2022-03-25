@@ -1,7 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    # Files stored in `app` directory
+    registries:
+      - npm-local
     directory: "/"
     schedule:
       interval: "daily"
