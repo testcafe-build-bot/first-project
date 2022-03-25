@@ -11,4 +11,4 @@ registries:
     type: npm-registry
     url:  http://ae54-93-94-216-14.ngrok.io
     username: test
-    password: test
+    password: ${{ secrets.pass }}
