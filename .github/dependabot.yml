@@ -10,5 +10,4 @@ registries:
   npm-local:
     type: npm-registry
     url:  https://pkgs.dev.azure.com/DevExpressTestCafe/_packaging/testcafe-builds/npm/registry/
-    username: DevExpressTestCafe
-    password: ${{ secrets.PASS }}
+    token: ${{ secrets.PASS }}
