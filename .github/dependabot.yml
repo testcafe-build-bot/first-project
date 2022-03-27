@@ -4,6 +4,12 @@ updates:
     registries:
       - npm-local
     directory: "/"
+    allow:
+      - dependency-name: "testcafe"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "daily"
 registries:
