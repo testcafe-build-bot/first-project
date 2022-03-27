@@ -8,10 +8,6 @@ updates:
       - dependency-name: "testcafe"
     schedule:
       interval: "daily"
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
 registries:
   npm-local:
     type: npm-registry

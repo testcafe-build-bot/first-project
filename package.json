@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/AB-Inc/first-project#readme",
   "devDependencies": {
-    "testcafe": "latest"
+    "testcafe": "1.8.4"
   }
 }
